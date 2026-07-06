@@ -63,6 +63,10 @@ tr.insert("arun")
 tr.insert("afeeda")
 tr.insert("amritha")
 tr.insert("ismail")
+tr.insert("ijas")
+tr.insert("jabbar")
+tr.insert("jafer")
+
 tr.remove("afeeda")
 tr.autocomplete("a")
 
