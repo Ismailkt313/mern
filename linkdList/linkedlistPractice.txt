@@ -1,0 +1,47 @@
+BASIC
+1. Print List
+2. Count Nodes
+3. Search Node
+4. Insert Head
+5. Insert Tail
+6. Delete Head
+7. Delete Tail
+8. Find Max
+9. Find Min
+10. Find Middle
+
+INTERMEDIATE
+11. Reverse Linked List
+12. Remove Nth Node From End
+13. Detect Cycle
+14. Find Cycle Start
+15. Merge Two Sorted Lists
+16. Remove Duplicates
+17. Palindrome Linked List
+18. Intersection Of Lists
+19. Odd Even Linked List
+20. Partition List
+
+ADVANCED
+21. Reverse K Group
+22. Rotate List
+23. Reorder List
+24. Sort List
+25. Merge K Sorted Lists
+26. Add Two Numbers II
+27. Copy Random Pointer
+28. Flatten Doubly Linked List
+29. Browser History Design
+30. LRU Cache
+
+EXPERT
+31. Reverse Alternate K Nodes
+32. Flatten Linked List
+33. Quick Sort Linked List
+34. Merge Sort Doubly Linked List
+35. Delete Greater Nodes On Right
+36. Segregate Even Odd Nodes
+37. Binary Tree To DLL
+38. Clone Arbitrary Pointer List
+39. LFU Cache
+40. All O(1) Data Structure

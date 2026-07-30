@@ -1,0 +1,44 @@
+====================================
+TIME & SPACE COMPLEXITY
+====================================
+
+1. What is Time Complexity?
+2. What is Space Complexity?
+3. Why is complexity analysis important?
+4. What is Big O Notation?
+5. What is Big Omega Notation?
+6. What is Big Theta Notation?
+7. Difference between O, Ω and Θ?
+8. What is Constant Time O(1)?
+9. What is Logarithmic Time O(log n)?
+10. What is Linear Time O(n)?
+11. What is Linearithmic Time O(n log n)?
+12. What is Quadratic Time O(n²)?
+13. What is Cubic Time O(n³)?
+14. What is Exponential Time O(2ⁿ)?
+15. What is Factorial Time O(n!)?
+16. How do nested loops affect complexity?
+17. How do consecutive loops affect complexity?
+18. How do recursive calls affect complexity?
+19. Best Case Complexity?
+20. Average Case Complexity?
+21. Worst Case Complexity?
+22. Amortized Complexity?
+23. How to calculate space complexity?
+24. Recursive space complexity?
+25. Iterative vs Recursive complexity?
+26. Why is O(log n) better than O(n)?
+27. Why is O(n log n) ideal for sorting?
+28. Why are O(2ⁿ) algorithms dangerous?
+29. Tradeoff between Time and Space?
+30. Complexity of Arrays?
+31. Complexity of Linked Lists?
+32. Complexity of Stack?
+33. Complexity of Queue?
+34. Complexity of HashMap?
+35. Complexity of BST?
+36. Complexity of Heap?
+37. Complexity of Trie?
+38. Complexity of Graph Traversal?
+39. Complexity of DFS?
+40. Complexity of BFS?

@@ -1,0 +1,985 @@
+```txt
+NODE.JS BEGINNER PRACTICAL QUESTIONS (20)
+
+✅  1. Create Your First Node Program
+      Task:
+      Create a Node.js program that prints:
+      Hello Node.js
+
+      Topics:
+      - Running Node.js
+      - console.log()
+
+--------------------------------------------------
+
+✅  2. User Input from Terminal
+Task:
+Accept a user's name using command-line arguments and print:
+Hello <name>
+
+Example:
+node app.js Ismail
+
+Output:
+Hello Ismail
+
+Topics:
+- process.argv
+
+--------------------------------------------------
+
+✅   3. Display System Information
+Task:
+Print:
+- Operating System Name
+- CPU Architecture
+- Total Memory
+- Free Memory
+
+Topics:
+- os module
+
+--------------------------------------------------
+
+✅   4. Current Directory Information
+Task:
+Print:
+- Current Directory Path
+- Current File Name
+
+Topics:
+- __dirname
+- __filename
+
+--------------------------------------------------
+
+✅   5. Create a File
+Task:
+Create a file named notes.txt and write:
+Welcome to Node.js
+
+Topics:
+- fs.writeFile()
+- fs.writeFileSync()
+
+--------------------------------------------------
+
+✅   6. Read a File
+Task:
+Read the contents of notes.txt and print them in the console.
+
+Topics:
+- fs.readFile()
+- fs.readFileSync()
+
+--------------------------------------------------
+
+✅   7. Append Data to File
+Task:
+Add the following text to notes.txt:
+Learning Node.js
+
+Topics:
+- fs.appendFile()
+
+--------------------------------------------------
+
+✅   8. Delete a File
+Task:
+Delete notes.txt
+
+Topics:
+- fs.unlink()
+
+--------------------------------------------------
+
+✅   9. Create a Folder
+Task:
+Create a folder named documents
+
+Topics:
+- fs.mkdir()
+
+--------------------------------------------------
+
+✅   10. Read Folder Contents
+Task:
+Display all files and folders inside documents
+
+Topics:
+- fs.readdir()
+
+--------------------------------------------------
+
+✅   11. Rename a File
+Task:
+Rename:
+old.txt
+
+to
+
+new.txt
+
+Topics:
+- fs.rename()
+
+--------------------------------------------------
+
+✅   12. Check Whether File Exists
+Task:
+Check if profile.txt exists and print:
+File Exists
+
+or
+
+File Not Found
+
+Topics:
+- fs.existsSync()
+- fs.access()
+
+--------------------------------------------------
+
+✅   13. Copy a File
+Task:
+Copy:
+source.txt
+
+to
+
+backup.txt
+
+Topics:
+- fs.copyFile()
+
+--------------------------------------------------
+
+✅   14. Working with Path Module
+Task:
+Given:
+"/home/user/docs/file.txt"
+
+Print:
+- Directory Name
+- File Name
+- File Extension
+
+Topics:
+- path.dirname()
+- path.basename()
+- path.extname()
+
+--------------------------------------------------
+
+✅   15. Create Your Own Module
+Task:
+Create a module named math.js containing:
+- add()
+- subtract()
+
+Import and use them in another file.
+
+Topics:
+- module.exports
+- require()
+
+--------------------------------------------------
+
+✅   16. Event Emitter Basics
+Task:
+Create:
+- login event
+- logout event
+
+Print messages when events are triggered.
+
+Topics:
+- events module
+- emit()
+- on()
+
+--------------------------------------------------
+
+✅   17. Basic HTTP Server
+Task:
+Create a server on port 3000.
+
+When opening:
+http://localhost:3000
+
+Display:
+Welcome to Node.js
+
+Topics:
+- http module
+- createServer()
+
+--------------------------------------------------
+
+18. Multiple Routes
+Task:
+Create routes:
+
+/
+Returns:
+Home Page
+
+/about
+Returns:
+About Page
+
+/contact
+Returns:
+Contact Page
+
+Topics:
+- req.url
+- Basic Routing
+
+--------------------------------------------------
+
+19. Read JSON File
+Task:
+Create student.json
+
+{
+  "name":"Ismail",
+  "age":23
+}
+
+Read and display the data.
+
+Topics:
+- fs.readFile()
+- JSON.parse()
+
+--------------------------------------------------
+
+20. Student Management System (Mini Project)
+Task:
+Using students.json implement:
+
+1. Add Student
+2. View Students
+3. Delete Student
+
+Store all data inside students.json
+
+Topics:
+- File System
+- JSON
+- CRUD Operations
+- Modules
+- Data Persistence
+
+--------------------------------------------------
+
+BEGINNER NODE.JS CHECKLIST
+
+□ Running Node.js
+□ console.log()
+□ process.argv
+□ os module
+□ fs module
+□ path module
+□ __dirname
+□ __filename
+□ CommonJS Modules
+□ module.exports
+□ require()
+□ Events
+□ EventEmitter
+□ JSON Handling
+□ HTTP Module
+□ Basic Routing
+□ File CRUD Operations
+□ Folder Operations
+□ Mini Project Structure
+
+If you can complete all 20 without Google, YouTube, notes, or AI help, you have covered the true Node.js beginner foundation and are ready for Intermediate Level.
+```
+
+
+===============================
+NODE.JS INTERMEDIATE QUESTIONS
+===============================
+
+1. File Manager CLI
+
+Build a command line application supporting:
+
+- create file
+- read file
+- update file
+- delete file
+
+Use command line arguments.
+
+Topics:
+- fs
+- path
+- process.argv
+- modular coding
+
+--------------------------------------------------
+
+2. Async File Processor
+
+Read 5 files simultaneously and print all contents after every file is completed.
+
+Topics:
+- Promise
+- Promise.all()
+- Async/Await
+
+--------------------------------------------------
+
+3. Custom Logger
+
+Create a logger module.
+
+Functions:
+
+info()
+warn()
+error()
+
+Store logs inside:
+
+logs.txt
+
+Topics:
+- Modules
+- File Handling
+
+--------------------------------------------------
+
+4. User CRUD REST API
+
+Using Express create:
+
+GET /users
+GET /users/:id
+POST /users
+PUT /users/:id
+DELETE /users/:id
+
+Topics:
+- Express
+- Routing
+- CRUD
+
+--------------------------------------------------
+
+5. Middleware System
+
+Create:
+
+- Logger Middleware
+- Authentication Middleware
+
+Apply globally.
+
+Topics:
+- req
+- res
+- next
+
+--------------------------------------------------
+
+6. JWT Authentication
+
+Features:
+
+- Register
+- Login
+- Generate JWT
+- Protected Route
+
+Topics:
+- JWT
+- bcrypt
+- Authentication
+
+--------------------------------------------------
+
+7. Role Based Authorization
+
+Roles:
+
+- Admin
+- User
+
+Admin can access all routes.
+User can access limited routes.
+
+Topics:
+- Authorization
+- RBAC
+
+--------------------------------------------------
+
+8. File Upload API
+
+Upload:
+
+- Images
+- PDFs
+
+Store locally.
+
+Topics:
+- Multer
+- Express
+
+--------------------------------------------------
+
+9. MongoDB Aggregation API
+
+Build:
+
+GET /dashboard
+
+Return:
+
+- Total Users
+- Total Orders
+- Revenue
+
+Using aggregation pipeline.
+
+Topics:
+- MongoDB Aggregation
+
+--------------------------------------------------
+
+10. E-Commerce Backend
+
+Modules:
+
+- User
+- Product
+- Cart
+- Order
+
+Topics:
+- Architecture
+- REST API
+- MongoDB
+- Authentication
+
+--------------------------------------------------
+
+11. Email Service
+
+Send:
+
+- Welcome Email
+- Password Reset Email
+
+Topics:
+- Nodemailer
+
+--------------------------------------------------
+
+12. Redis Cache Layer
+
+Cache:
+
+GET /products
+
+Topics:
+- Redis
+- Caching
+
+--------------------------------------------------
+
+13. Pagination API
+
+Implement:
+
+?page=
+?limit=
+
+Topics:
+- Pagination
+- Query Parameters
+
+--------------------------------------------------
+
+14. Search and Filter API
+
+Features:
+
+- Search by name
+- Sort
+- Filter
+
+Topics:
+- MongoDB Queries
+
+--------------------------------------------------
+
+15. Global Error Handler
+
+Handle:
+
+- Validation Errors
+- Database Errors
+- Unknown Errors
+
+Topics:
+- Error Middleware
+
+--------------------------------------------------
+
+16. Validation Layer
+
+Validate:
+
+- Email
+- Password
+- Phone Number
+
+Using Joi or Zod.
+
+Topics:
+- Request Validation
+
+--------------------------------------------------
+
+17. Refresh Token Authentication
+
+Implement:
+
+- Access Token
+- Refresh Token
+
+Topics:
+- JWT Security
+
+--------------------------------------------------
+
+18. Socket Chat Application
+
+Features:
+
+- Join Room
+- Send Message
+- Broadcast Message
+
+Topics:
+- Socket.IO
+
+--------------------------------------------------
+
+19. Background Job Queue
+
+Queue:
+
+- Email Jobs
+- Report Jobs
+
+Topics:
+- BullMQ
+- Redis
+
+--------------------------------------------------
+
+20. MVC Refactor
+
+Convert a large API into:
+
+- Routes
+- Controllers
+- Services
+- Repositories
+
+Topics:
+- MVC
+- Clean Architecture
+
+
+
+===============================
+NODE.JS ADVANCED QUESTIONS
+===============================
+
+1. Build Custom EventEmitter
+
+Implement your own version of:
+
+on()
+emit()
+once()
+
+Topics:
+- Event Driven Architecture
+
+--------------------------------------------------
+
+2. Implement Custom Stream
+
+Create:
+
+Readable Stream
+
+that reads a large file.
+
+Topics:
+- Streams
+
+--------------------------------------------------
+
+3. CSV Processing Engine
+
+Process:
+
+1 Million Records
+
+without loading all into memory.
+
+Topics:
+- Streams
+- Backpressure
+
+--------------------------------------------------
+
+4. Build Your Own Express
+
+Implement:
+
+app.get()
+app.post()
+
+using native http module.
+
+Topics:
+- HTTP Internals
+
+--------------------------------------------------
+
+5. API Rate Limiter
+
+Limit:
+
+100 Requests / Minute
+
+Topics:
+- Redis
+- Middleware
+
+--------------------------------------------------
+
+6. Build Authentication Service
+
+Separate:
+
+- User Service
+- Auth Service
+
+Topics:
+- Microservice Concepts
+
+--------------------------------------------------
+
+7. Worker Thread Processor
+
+Process:
+
+Large Fibonacci Calculation
+
+without blocking event loop.
+
+Topics:
+- Worker Threads
+
+--------------------------------------------------
+
+8. Clustered API Server
+
+Use:
+
+cluster module
+
+Run on all CPU cores.
+
+Topics:
+- Clustering
+
+--------------------------------------------------
+
+9. Distributed Cache
+
+Implement:
+
+Redis Cache Strategy
+
+Topics:
+- Scaling
+
+--------------------------------------------------
+
+10. Build URL Shortener
+
+Features:
+
+- Short URL
+- Analytics
+- Expiration
+
+Topics:
+- System Design
+
+--------------------------------------------------
+
+11. Real Time Notification System
+
+Topics:
+- Socket.IO
+- Redis Pub/Sub
+
+--------------------------------------------------
+
+12. Payment Gateway Integration
+
+Features:
+
+- Create Payment
+- Verify Payment
+
+Topics:
+- Security
+- Transactions
+
+--------------------------------------------------
+
+13. Build API Gateway
+
+Route requests to:
+
+- User Service
+- Product Service
+- Order Service
+
+Topics:
+- Microservices
+
+--------------------------------------------------
+
+14. Memory Leak Investigation
+
+Find and fix:
+
+Intentional memory leak.
+
+Topics:
+- Heap
+- Garbage Collection
+
+--------------------------------------------------
+
+15. Build Custom Logger Framework
+
+Features:
+
+- Levels
+- File Output
+- Rotation
+
+Topics:
+- Logging
+
+--------------------------------------------------
+
+16. Implement Retry Mechanism
+
+Retry failed API requests.
+
+Topics:
+- Resilience
+
+--------------------------------------------------
+
+17. Build Notification Queue
+
+Topics:
+- BullMQ
+- Redis
+
+--------------------------------------------------
+
+18. Build Audit Logging System
+
+Track:
+
+- User Actions
+- Admin Actions
+
+Topics:
+- Compliance
+
+--------------------------------------------------
+
+19. Design Secure Auth System
+
+Features:
+
+- Refresh Tokens
+- Token Rotation
+- Logout All Devices
+
+Topics:
+- Enterprise Authentication
+
+--------------------------------------------------
+
+20. Production Deployment
+
+Deploy:
+
+- Node
+- MongoDB
+- Redis
+
+Using Docker.
+
+Topics:
+- DevOps
+
+
+
+
+====================================
+NODE.JS ULTRA ADVANCED QUESTIONS
+====================================
+
+1. Build a Production-Grade Authentication System
+
+Features:
+
+- JWT
+- Refresh Token Rotation
+- Email Verification
+- Password Reset
+- Session Management
+- Device Tracking
+
+--------------------------------------------------
+
+2. Design YouTube Backend Architecture
+
+Design:
+
+- Upload Service
+- Video Service
+- Recommendation Service
+- Notification Service
+
+Topics:
+- System Design
+
+--------------------------------------------------
+
+3. Design WhatsApp Backend
+
+Features:
+
+- Online Status
+- Typing Indicator
+- Delivery Status
+- Read Receipts
+
+Topics:
+- Realtime Systems
+
+--------------------------------------------------
+
+4. Design Uber Backend
+
+Features:
+
+- Driver Matching
+- Geo Queries
+- Realtime Tracking
+
+Topics:
+- Distributed Systems
+
+--------------------------------------------------
+
+5. Build Distributed Job Processing System
+
+Multiple Workers
+
+Single Queue
+
+Topics:
+- BullMQ
+- Redis
+
+--------------------------------------------------
+
+6. Build API Gateway + Microservices
+
+Services:
+
+- User
+- Product
+- Order
+- Payment
+
+Topics:
+- Microservices
+
+--------------------------------------------------
+
+7. Build Event Driven Architecture
+
+Services communicate through events.
+
+Topics:
+- Kafka
+- RabbitMQ
+
+--------------------------------------------------
+
+8. Build Distributed Notification System
+
+Channels:
+
+- Email
+- SMS
+- Push
+
+Topics:
+- Scalability
+
+--------------------------------------------------
+
+9. Design High Scale E-Commerce Backend
+
+Features:
+
+- Flash Sales
+- Inventory Locking
+- Payments
+- Orders
+
+Topics:
+- Scalability
+
+--------------------------------------------------
+
+10. Build Production Monitoring Platform
+
+Features:
+
+- Logs
+- Metrics
+- Health Checks
+- Alerts
+- Tracing
+
+Topics:
+- Observability

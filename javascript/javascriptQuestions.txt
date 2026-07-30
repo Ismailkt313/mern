@@ -1,0 +1,214 @@
+Variables
+Data Types
+Operators
+Conditionals
+Loops
+Functions
+Arrays
+Objects
+Strings
+DOM
+ES6+
+Scope
+Hoisting
+Closures
+This Keyword
+Prototype
+OOP
+Promises
+Async/Await
+Event Loop
+Execution Context
+Memory Management
+Modules
+Functional Programming
+Design Patterns
+Performance Optimization
+Browser Internals
+Event Delegation
+Debouncing
+Throttling
+Polyfills
+Generators
+Iterators
+Currying
+Composition
+Web APIs
+
+
+1. Create a program to find whether a number is even or odd.
+
+2. Create a program to find the largest among 3 numbers.
+
+3. Reverse a string without using reverse().
+
+4. Count vowels in a string.
+
+5. Check whether a string is palindrome.
+
+6. Find factorial of a number.
+
+7. Print Fibonacci series.
+
+8. Find sum of all numbers in an array.
+
+9. Find largest number in an array.
+
+10. Remove duplicate values from an array.
+
+11. Sort an array in ascending order without using sort().
+
+12. Count occurrence of each character in a string.
+
+13. Find missing number in an array.
+
+14. Merge two arrays.
+
+15. Find intersection of two arrays.
+
+16. Create a calculator using functions.
+
+17. Create a simple student object and print all keys and values.
+
+18. Convert Celsius to Fahrenheit.
+
+19. Create a program to count words in a sentence.
+
+20. Build a console-based student management system.
+.
+Variables
+Data Types
+Operators
+If Else
+Loops
+Functions
+Arrays
+Objects
+Strings
+Basic Problem Solving
+
+DOM
+Events
+Fetch API
+ES6
+Destructuring
+Spread Operator
+Rest Operator
+Array Methods
+Object Methods
+API Calls
+Async Basics
+
+1. Create your own Promise implementation.
+
+2. Create custom bind().
+
+3. Create custom call().
+
+4. Create custom apply().
+
+5. Implement debounce().
+
+6. Implement throttle().
+
+7. Create a memoization utility.
+
+8. Implement currying.
+
+9. Create compose() function.
+
+10. Create pipe() function.
+
+11. Implement event delegation.
+
+12. Build custom event emitter.
+
+13. Build a pub-sub system.
+
+14. Implement deep equality checker.
+
+15. Build custom iterator.
+
+16. Build custom generator.
+
+17. Implement lazy loading for images.
+
+18. Create virtual DOM concept demo.
+
+19. Build a state management library.
+
+20. Create a task scheduler with priority queue.
+
+Closures
+This
+Prototype
+Event Loop
+Promises
+Async/Await
+Polyfills
+Functional Programming
+Memory Optimization
+Advanced DOM
+
+1. Implement your own Promise.all().
+
+2. Implement your own Promise.race().
+
+3. Implement your own Promise.any().
+
+4. Build a mini React-like library.
+
+5. Build a custom virtual DOM engine.
+
+6. Create a dependency injection container.
+
+7. Build a Redux-like state management system.
+
+8. Design a browser router from scratch.
+
+9. Build a template engine similar to Handlebars.
+
+10. Build a JavaScript runtime concept simulator.
+
+JavaScript Engine Concepts
+Execution Context
+Call Stack
+Microtask Queue
+Macrotask Queue
+Prototype Chain
+Design Patterns
+Architecture
+Library Internals
+Framework Internals
+
+
+1. What is JavaScript?
+2. Difference between var, let, const?
+3. What is hoisting?
+4. What is temporal dead zone?
+5. What is scope?
+6. What is closure?
+7. What is lexical scope?
+8. What is execution context?
+9. What is call stack?
+10. What is event loop?
+11. What are microtasks and macrotasks?
+12. What is callback hell?
+13. What are promises?
+14. Difference between Promise and Async/Await?
+15. What is this keyword?
+16. Difference between call, apply, bind?
+17. What is prototype?
+18. What is prototype chain?
+19. Difference between shallow copy and deep copy?
+20. What is event delegation?
+21. What is currying?
+22. What is debouncing?
+23. What is throttling?
+24. What is memoization?
+25. What is garbage collection?
+26. Difference between == and ===?
+27. What are modules?
+28. Difference between CommonJS and ES Modules?
+29. What is strict mode?
+30. Explain Promise.all, allSettled, race and any.

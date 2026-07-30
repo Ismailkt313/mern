@@ -1,0 +1,29 @@
+====================================
+RECURSION
+====================================
+
+1. What is recursion?
+2. Why use recursion?
+3. Base case?
+4. Recursive case?
+5. What causes infinite recursion?
+6. What is stack overflow?
+7. What is recursion tree?
+8. How recursion uses call stack?
+9. Tail Recursion?
+10. Head Recursion?
+11. Direct Recursion?
+12. Indirect Recursion?
+13. Recursive vs Iterative?
+14. Advantages of recursion?
+15. Disadvantages of recursion?
+16. Space complexity of recursion?
+17. Time complexity of recursion?
+18. How to optimize recursion?
+19. What is memoization?
+20. What is overlapping subproblem?
+21. What is recursion backtracking?
+22. How recursion helps trees?
+23. How recursion helps graphs?
+24. How recursion helps divide and conquer?
+25. When should recursion be avoided?

@@ -1,0 +1,29 @@
+====================================
+LINKED LIST
+====================================
+
+1. What is Linked List?
+2. Why Linked List?
+3. Difference between Array and Linked List?
+4. Singly Linked List?
+5. Doubly Linked List?
+6. Circular Linked List?
+7. Node structure?
+8. Head pointer?
+9. Tail pointer?
+10. Insert at beginning?
+11. Insert at end?
+12. Insert at middle?
+13. Delete at beginning?
+14. Delete at end?
+15. Delete at middle?
+16. Reverse a Linked List?
+17. Detect loop in Linked List?
+18. Floyd Cycle Detection?
+19. Find middle node?
+20. Find nth node from end?
+21. Merge two sorted lists?
+22. Complexity of Linked List operations?
+23. Advantages of Linked List?
+24. Disadvantages of Linked List?
+25. Real-world use cases?

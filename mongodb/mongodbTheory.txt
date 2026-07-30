@@ -1,0 +1,314 @@
+====================================
+MONGODB FUNDAMENTALS
+====================================
+
+1. What is MongoDB?
+2. Why is MongoDB called a NoSQL database?
+3. What are the advantages of MongoDB?
+4. What are the disadvantages of MongoDB?
+5. Difference between SQL and MongoDB?
+6. What is a Document?
+7. What is a Collection?
+8. What is a Database?
+9. What is BSON?
+10. Difference between BSON and JSON?
+11. What data types are supported in MongoDB?
+12. What is ObjectId?
+13. Structure of ObjectId?
+14. Why does MongoDB use ObjectId?
+15. Difference between Collection and Table?
+16. Difference between Document and Row?
+17. Difference between Embedded Document and Nested Document?
+18. What is Dynamic Schema?
+19. What is Schema-less Database?
+20. Why is MongoDB considered flexible?
+
+====================================
+CRUD OPERATIONS
+====================================
+
+21. What is CRUD?
+22. Difference between insertOne() and insertMany()?
+23. Difference between find() and findOne()?
+24. Difference between updateOne() and updateMany()?
+25. Difference between replaceOne() and updateOne()?
+26. Difference between deleteOne() and deleteMany()?
+27. What is upsert?
+28. How does upsert work?
+29. What does matchedCount mean?
+30. What does modifiedCount mean?
+31. How can you limit query results?
+32. How can you sort query results?
+33. How can you skip documents?
+34. How does pagination work?
+35. What happens if no documents match?
+
+====================================
+QUERY OPERATORS
+====================================
+
+36. What are MongoDB operators?
+37. Difference between $eq and direct matching?
+38. What does $ne do?
+39. What does $gt do?
+40. What does $gte do?
+41. What does $lt do?
+42. What does $lte do?
+43. What does $in do?
+44. What does $nin do?
+45. What does $exists do?
+46. What does $type do?
+47. What does $regex do?
+48. What does $and do?
+49. What does $or do?
+50. What does $not do?
+51. What does $nor do?
+52. How does MongoDB evaluate logical operators?
+
+====================================
+ARRAY OPERATORS
+====================================
+
+53. What are array fields?
+54. What is $all?
+55. What is $size?
+56. What is $elemMatch?
+57. Difference between $push and $addToSet?
+58. Difference between $pull and $pop?
+59. How does $each work?
+60. How does $slice work?
+61. How does $position work?
+62. What is positional operator $?
+63. What is $[]?
+64. What is $[identifier]?
+
+====================================
+PROJECTION
+====================================
+
+65. What is projection?
+66. Why is projection important?
+67. How do you include fields?
+68. How do you exclude fields?
+69. Why can't inclusion and exclusion be mixed?
+70. How can you hide _id?
+
+====================================
+EMBEDDING VS REFERENCING
+====================================
+
+71. What is embedding?
+72. What is referencing?
+73. When should embedding be used?
+74. When should referencing be used?
+75. Advantages of embedding?
+76. Disadvantages of embedding?
+77. Advantages of referencing?
+78. Disadvantages of referencing?
+79. How do you choose between embedding and referencing?
+80. Real-world examples of embedding and referencing?
+
+====================================
+SCHEMA DESIGN
+====================================
+
+81. What is schema design?
+82. Why is schema design important?
+83. What are schema design patterns?
+84. What is one-to-one relationship?
+85. What is one-to-many relationship?
+86. What is many-to-many relationship?
+87. How would you model users and orders?
+88. How would you model posts and comments?
+89. How would you model products and categories?
+90. Common schema design mistakes?
+
+====================================
+INDEXING
+====================================
+
+91. What is an index?
+92. Why are indexes important?
+93. How does MongoDB index work?
+94. What is a single field index?
+95. What is a compound index?
+96. What is a multikey index?
+97. What is a text index?
+98. What is a hashed index?
+99. What is a wildcard index?
+100. What is a TTL index?
+101. What is a unique index?
+102. What is index cardinality?
+103. What is covered query?
+104. What is index selectivity?
+105. How do indexes improve performance?
+106. How can indexes reduce performance?
+107. What is index intersection?
+108. What is explain()?
+109. What is COLLSCAN?
+110. What is IXSCAN?
+111. How do you analyze query performance?
+112. What is index fragmentation?
+
+====================================
+AGGREGATION PIPELINE
+====================================
+
+113. What is aggregation?
+114. Why use aggregation?
+115. What is aggregation pipeline?
+116. What does $match do?
+117. What does $project do?
+118. What does $group do?
+119. What does $sort do?
+120. What does $limit do?
+121. What does $skip do?
+122. What does $count do?
+123. What does $unwind do?
+124. What does $lookup do?
+125. Difference between $lookup and populate?
+126. What does $facet do?
+127. What does $bucket do?
+128. What does $bucketAuto do?
+129. What does $addFields do?
+130. What does $set do?
+131. What does $unset do?
+132. What does $replaceRoot do?
+133. What does $merge do?
+134. What does $out do?
+135. How do aggregation stages execute?
+
+====================================
+MONGOOSE
+====================================
+
+136. What is Mongoose?
+137. Why use Mongoose?
+138. What is a Schema?
+139. What is a Model?
+140. What is validation?
+141. Built-in validations?
+142. Custom validations?
+143. What are virtuals?
+144. What are middleware hooks?
+145. Difference between pre and post hooks?
+146. What is populate()?
+147. How does populate work internally?
+148. What are statics?
+149. What are methods?
+150. What are plugins?
+
+====================================
+REPLICATION
+====================================
+
+151. What is replication?
+152. Why is replication needed?
+153. What is Replica Set?
+154. Components of Replica Set?
+155. What is Primary Node?
+156. What is Secondary Node?
+157. What is Arbiter?
+158. What is automatic failover?
+159. What happens if primary goes down?
+160. How is data synchronized?
+
+====================================
+SHARDING
+====================================
+
+161. What is sharding?
+162. Why is sharding required?
+163. What is horizontal scaling?
+164. What is vertical scaling?
+165. Components of sharded cluster?
+166. What is shard key?
+167. Characteristics of a good shard key?
+168. What is chunk?
+169. What is chunk migration?
+170. What is balancer?
+171. What happens when shard key is poor?
+
+====================================
+TRANSACTIONS
+====================================
+
+172. What is a transaction?
+173. Why are transactions needed?
+174. What is ACID?
+175. What is Atomicity?
+176. What is Consistency?
+177. What is Isolation?
+178. What is Durability?
+179. How do MongoDB transactions work?
+180. Limitations of transactions?
+181. When should transactions be used?
+182. When should transactions be avoided?
+
+====================================
+PERFORMANCE
+====================================
+
+183. How do you optimize MongoDB queries?
+184. How do you identify slow queries?
+185. What causes slow queries?
+186. What is query planner?
+187. What is execution plan?
+188. How can projection improve performance?
+189. How can indexing improve performance?
+190. What are performance bottlenecks?
+191. How does MongoDB use RAM?
+192. Why is working set important?
+
+====================================
+SECURITY
+====================================
+
+193. How does MongoDB authentication work?
+194. What authentication methods are supported?
+195. What is authorization?
+196. What are roles in MongoDB?
+197. What is RBAC?
+198. How do you secure MongoDB?
+199. Why should MongoDB not be exposed publicly?
+200. What is encryption at rest?
+201. What is TLS/SSL in MongoDB?
+202. What is auditing?
+
+====================================
+ADVANCED TOPICS
+====================================
+
+203. What is Change Stream?
+204. How do Change Streams work?
+205. What is MongoDB Atlas?
+206. Atlas vs Self-hosted MongoDB?
+207. What is WiredTiger?
+208. What is Journaling?
+209. How does MongoDB ensure durability?
+210. What is Read Concern?
+211. What is Write Concern?
+212. What is Read Preference?
+213. What is Eventual Consistency?
+214. What is Strong Consistency?
+215. CAP Theorem in MongoDB?
+216. How does MongoDB handle concurrency?
+217. What is optimistic concurrency control?
+218. What is pessimistic locking?
+219. What is BSON document size limit?
+220. What happens if document size exceeds limit?
+
+====================================
+SENIOR LEVEL SYSTEM DESIGN QUESTIONS
+====================================
+
+221. Design an e-commerce database in MongoDB.
+222. Design a social media database in MongoDB.
+223. Design a WhatsApp-like chat schema.
+224. Design a food delivery database.
+225. Design an Uber-like system.
+226. Design a notification service.
+227. Design a multi-tenant SaaS database.
+228. How would you shard a large user collection?
+229. How would you store analytics events?
+230. How would you handle millions of writes per second?

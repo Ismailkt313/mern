@@ -1,0 +1,64 @@
+====================================
+BUBBLE SORT
+====================================
+
+1. How Bubble Sort works?
+2. Best Case Complexity?
+3. Average Case Complexity?
+4. Worst Case Complexity?
+5. Space Complexity?
+6. Stable or Unstable?
+7. In-place or not?
+8. Advantages?
+9. Disadvantages?
+10. Real-world use?
+
+====================================
+SELECTION SORT
+====================================
+
+11. How Selection Sort works?
+12. Complexity analysis?
+13. Number of swaps?
+14. Stable or Unstable?
+15. Advantages?
+16. Disadvantages?
+
+====================================
+INSERTION SORT
+====================================
+
+17. How Insertion Sort works?
+18. Best Case?
+19. Worst Case?
+20. Why good for nearly sorted arrays?
+21. Stable or Unstable?
+
+====================================
+MERGE SORT
+====================================
+
+22. How Merge Sort works?
+23. Divide and Conquer?
+24. Time Complexity?
+25. Space Complexity?
+26. Stable?
+27. Why O(n log n)?
+28. Advantages?
+29. Disadvantages?
+
+====================================
+QUICK SORT
+====================================
+
+30. How Quick Sort works?
+31. Pivot?
+32. Partition?
+33. Best Case?
+34. Worst Case?
+35. Average Case?
+36. Space Complexity?
+37. Why Quick Sort is fast?
+38. Stable or Unstable?
+39. Quick Sort vs Merge Sort?
+40. When to choose Quick Sort?

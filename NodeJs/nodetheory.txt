@@ -1,0 +1,419 @@
+====================================
+NODE.JS FUNDAMENTALS
+====================================
+
+1. What is Node.js?
+2. Is Node.js a framework or runtime?
+3. Why was Node.js created?
+4. What problems does Node.js solve?
+5. Advantages of Node.js?
+6. Disadvantages of Node.js?
+7. When should Node.js be used?
+8. When should Node.js not be used?
+9. What is the V8 Engine?
+10. How does V8 work?
+11. What is a runtime environment?
+12. Difference between Node.js and Browser JavaScript?
+13. Why is Node.js fast?
+14. What is non-blocking I/O?
+15. What is event-driven architecture?
+16. What is asynchronous programming?
+17. What is synchronous programming?
+18. Difference between sync and async code?
+19. What is concurrency?
+20. What is parallelism?
+
+====================================
+NODE ARCHITECTURE
+====================================
+
+21. Explain Node.js architecture.
+22. Why is Node.js single-threaded?
+23. What is the main thread?
+24. What is libuv?
+25. What role does libuv play?
+26. What is thread pool?
+27. How many threads are in Node's thread pool?
+28. Which operations use thread pool?
+29. How does Node handle multiple requests?
+30. Why doesn't Node create a thread per request?
+
+====================================
+EVENT LOOP
+====================================
+
+31. What is Event Loop?
+32. Why is Event Loop important?
+33. Explain Event Loop phases.
+34. What is Call Stack?
+35. What is Callback Queue?
+36. What is Microtask Queue?
+37. What is Macrotask Queue?
+38. Difference between Microtask and Macrotask?
+39. Execution order of callbacks?
+40. setTimeout vs setImmediate?
+41. process.nextTick vs Promise?
+42. Which executes first and why?
+43. What causes Event Loop blocking?
+44. How to avoid Event Loop blocking?
+45. How can Event Loop lag affect applications?
+
+====================================
+GLOBAL OBJECTS
+====================================
+
+46. What is global object?
+47. Difference between global and window?
+48. What is process object?
+49. What is __dirname?
+50. What is __filename?
+51. What is Buffer?
+52. What is console object?
+53. What is setTimeout?
+54. What is setInterval?
+55. What is setImmediate?
+56. What is clearTimeout?
+57. What is clearInterval?
+
+====================================
+MODULES
+====================================
+
+58. What is a module?
+59. Why use modules?
+60. What is CommonJS?
+61. What is module.exports?
+62. What is exports?
+63. What is require()?
+64. How does require work internally?
+65. What is module caching?
+66. What is ES Module?
+67. Difference between CommonJS and ES Modules?
+68. What is package.json?
+69. What is package-lock.json?
+70. What is node_modules?
+
+====================================
+NPM
+====================================
+
+71. What is npm?
+72. Difference between dependency and devDependency?
+73. What is semantic versioning?
+74. Meaning of ^ in package version?
+75. Meaning of ~ in package version?
+76. What is npm install?
+77. What is npm update?
+78. What is npm audit?
+79. What is npm audit fix?
+80. What is npx?
+
+====================================
+FILE SYSTEM
+====================================
+
+81. What is fs module?
+82. Difference between sync and async file operations?
+83. What is readFile?
+84. What is writeFile?
+85. What is appendFile?
+86. What is unlink?
+87. What is mkdir?
+88. What is readdir?
+89. How to handle file errors?
+90. Why prefer async operations?
+
+====================================
+PATH MODULE
+====================================
+
+91. What is path module?
+92. What is path.join()?
+93. What is path.resolve()?
+94. Difference between join and resolve?
+95. What is basename()?
+96. What is dirname()?
+97. What is extname()?
+
+====================================
+EVENT EMITTER
+====================================
+
+98. What is EventEmitter?
+99. Why use EventEmitter?
+100. What is emit()?
+101. What is on()?
+102. What is once()?
+103. How does EventEmitter work internally?
+104. Real-world use cases of EventEmitter?
+105. Difference between EventEmitter and callbacks?
+
+====================================
+BUFFERS
+====================================
+
+106. What is Buffer?
+107. Why are Buffers needed?
+108. How are Buffers stored?
+109. Buffer vs String?
+110. What is binary data?
+111. What is Buffer.from()?
+112. What is Buffer.alloc()?
+113. Real-world use cases of Buffers?
+
+====================================
+STREAMS
+====================================
+
+114. What is a Stream?
+115. Why use Streams?
+116. Types of Streams?
+117. What is Readable Stream?
+118. What is Writable Stream?
+119. What is Duplex Stream?
+120. What is Transform Stream?
+121. What is piping?
+122. What is backpressure?
+123. How does stream improve performance?
+124. Stream vs readFile?
+
+====================================
+HTTP MODULE
+====================================
+
+125. What is HTTP module?
+126. How does createServer work?
+127. What is request object?
+128. What is response object?
+129. What is routing?
+130. Difference between GET and POST?
+131. Difference between PUT and PATCH?
+132. Difference between PUT and DELETE?
+133. Common HTTP status codes?
+134. What is REST API?
+
+====================================
+EXPRESS.JS
+====================================
+
+135. What is Express?
+136. Why use Express?
+137. How does Express work?
+138. What is middleware?
+139. Types of middleware?
+140. What is next()?
+141. What is Router?
+142. Difference between app.use and app.get?
+143. Error middleware?
+144. How to handle global errors?
+145. What is Express Router?
+146. What is request lifecycle?
+
+====================================
+AUTHENTICATION & AUTHORIZATION
+====================================
+
+147. What is Authentication?
+148. What is Authorization?
+149. Difference between Authentication and Authorization?
+150. What is JWT?
+151. Structure of JWT?
+152. What is Access Token?
+153. What is Refresh Token?
+154. Why use Refresh Tokens?
+155. What is token expiration?
+156. What is bcrypt?
+157. Why hash passwords?
+158. What is salting?
+159. What is RBAC?
+160. What is session authentication?
+161. JWT vs Session?
+
+====================================
+ASYNC PROGRAMMING
+====================================
+
+162. What is callback?
+163. What is callback hell?
+164. How to avoid callback hell?
+165. What is Promise?
+166. Promise states?
+167. What is then()?
+168. What is catch()?
+169. What is finally()?
+170. What is async/await?
+171. Promise.all?
+172. Promise.allSettled?
+173. Promise.race?
+174. Promise.any?
+175. When should each be used?
+
+====================================
+ERROR HANDLING
+====================================
+
+176. What is error handling?
+177. Difference between operational and programmer errors?
+178. What is try/catch?
+179. How to handle async errors?
+180. What is unhandled rejection?
+181. What is uncaught exception?
+182. How to create custom errors?
+183. Global error handling strategy?
+
+====================================
+DATABASE INTEGRATION
+====================================
+
+184. How does Node connect to databases?
+185. What is connection pooling?
+186. Why is pooling important?
+187. What causes connection leaks?
+188. How to prevent connection leaks?
+
+====================================
+REDIS
+====================================
+
+189. What is Redis?
+190. Why use Redis?
+191. Redis vs MongoDB?
+192. What is caching?
+193. Cache-aside pattern?
+194. Write-through cache?
+195. Redis Pub/Sub?
+196. Session storage using Redis?
+197. Rate limiting using Redis?
+
+====================================
+WORKER THREADS
+====================================
+
+198. What are Worker Threads?
+199. Why are Worker Threads needed?
+200. Difference between Worker Thread and Event Loop?
+201. When should Worker Threads be used?
+202. CPU-bound vs I/O-bound tasks?
+
+====================================
+CHILD PROCESS
+====================================
+
+203. What is Child Process?
+204. What is spawn()?
+205. What is exec()?
+206. What is fork()?
+207. Difference between spawn and exec?
+208. When should Child Process be used?
+
+====================================
+CLUSTERING
+====================================
+
+209. What is clustering?
+210. Why use clustering?
+211. How does cluster module work?
+212. Clustering vs Worker Threads?
+213. Horizontal scaling vs Vertical scaling?
+
+====================================
+SECURITY
+====================================
+
+214. What is CORS?
+215. Why does CORS exist?
+216. What is XSS?
+217. What is CSRF?
+218. What is SQL Injection?
+219. What is NoSQL Injection?
+220. What is Rate Limiting?
+221. What is Helmet?
+222. How to secure Express APIs?
+223. How to store secrets securely?
+224. Why use environment variables?
+
+====================================
+TESTING
+====================================
+
+225. What is testing?
+226. Unit Testing?
+227. Integration Testing?
+228. End-to-End Testing?
+229. What is Jest?
+230. What is mocking?
+231. Why write tests?
+
+====================================
+PERFORMANCE OPTIMIZATION
+====================================
+
+232. How to improve Node.js performance?
+233. What causes memory leaks?
+234. How to detect memory leaks?
+235. What is garbage collection?
+236. What is heap memory?
+237. What is stack memory?
+238. How to optimize API performance?
+239. How to optimize database performance?
+
+====================================
+MICROSERVICES
+====================================
+
+240. What are microservices?
+241. Monolith vs Microservices?
+242. Advantages of microservices?
+243. Challenges of microservices?
+244. What is API Gateway?
+245. What is service discovery?
+246. What is distributed transaction?
+
+====================================
+MESSAGE QUEUES
+====================================
+
+247. What is a message queue?
+248. Why use queues?
+249. What is BullMQ?
+250. What is RabbitMQ?
+251. What is Kafka?
+252. Difference between RabbitMQ and Kafka?
+253. What is Pub/Sub?
+254. What is Event Driven Architecture?
+
+====================================
+DOCKER & DEPLOYMENT
+====================================
+
+255. What is Docker?
+256. Why use Docker?
+257. What is a container?
+258. What is an image?
+259. Difference between VM and Container?
+260. How to deploy Node.js applications?
+261. What is Nginx?
+262. Why use reverse proxy?
+263. What is PM2?
+264. Why use PM2 in production?
+
+====================================
+SYSTEM DESIGN
+====================================
+
+265. Design a URL Shortener.
+266. Design a Chat Application.
+267. Design a Notification Service.
+268. Design a Food Delivery Backend.
+269. Design an E-Commerce Backend.
+270. Design a Real-Time Bus Tracking System.
+271. How would you scale Node.js for 1 million users?
+272. How would you handle millions of concurrent connections?
+273. How would you design a rate limiter?
+274. How would you design a file upload service?
+275. How would you design a logging system?
+276. How would you design a payment service?
+277. How would you design a real-time messaging service?
+278. How would you design an analytics system?
+279. How would you design a distributed cache?
+280. How would you design a production-grade authentication service?

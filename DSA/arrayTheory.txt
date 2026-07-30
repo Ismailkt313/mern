@@ -1,0 +1,24 @@
+====================================
+ARRAYS
+====================================
+
+1. What is an array?
+2. Static vs Dynamic Array?
+3. Advantages of arrays?
+4. Disadvantages of arrays?
+5. Why array access is O(1)?
+6. Why insertion at start is O(n)?
+7. Why deletion at start is O(n)?
+8. How arrays are stored in memory?
+9. Contiguous memory allocation?
+10. When should arrays be used?
+11. When should arrays be avoided?
+12. Difference between Array and Linked List?
+13. How dynamic arrays resize?
+14. Internal working of JavaScript arrays?
+15. Sparse arrays?
+16. Dense arrays?
+17. Multi-dimensional arrays?
+18. Jagged arrays?
+19. Sliding Window concept?
+20. Prefix Sum concept?
