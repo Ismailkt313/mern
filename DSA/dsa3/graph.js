@@ -14,7 +14,7 @@ class graph {
         }
         if (!obj[v2]) {
             this.addvertex(v2)
-        }
+        } 
         obj[v1].add(v2)
     }
     removeEdge(v1, v2) {
@@ -27,6 +27,20 @@ class graph {
             }
         }
         delete this.adjList[val]
+    }
+    dfs(start) {
+        let seen = new Set()
+        let itrate=(start,seen)=> {
+            console.log(start)
+            seen.add(start)
+            for (let val of this.adjList[start]) {
+                if (!seen.has(val)) {
+                    itrate(val,seen)
+                }
+            }
+        }
+
+        itrate(start,seen)
     }
     print() {
         for (let key in this.adjList) {
@@ -49,3 +63,4 @@ gp.addEdge(65, 56)
 gp.removeEdge(65, 56)
 gp.removeVertex(56)
 gp.print()
+gp.dfs(21)
