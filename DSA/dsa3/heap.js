@@ -16,6 +16,7 @@ class heap {
     remove() {
         this.table[0] = this.table.pop()
         this.heapdown(0, this.table.length, this.table)
+        // this was the proper method for removing
     }
     heapsort(arr) {
         for (let i = Math.floor((arr.length - 1) / 2); i >= 0; i--) {
