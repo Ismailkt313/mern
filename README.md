@@ -25,6 +25,7 @@ The repository is organized into distinct directories, each focusing on a specif
 ## Prerequisites
 
 Before utilizing this repository, ensure the following software is installed on your system:
+Before utilizing this repository, ensure the following software is installed on your system:
 
 *   **Git**: For cloning the repository.
 *   **Node.js**: A JavaScript runtime environment (version 14.x or higher recommended), essential for executing server-side JavaScript and managing packages.
