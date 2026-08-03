@@ -62,6 +62,7 @@ class graph {
         }
         const queue = [start]
         let seen = new Set()
+        
         seen.add(start)
         while (queue.length) {
             let value = queue.shift()
@@ -105,3 +106,4 @@ console.log("====================================================")
 gp.bfs(21)
 console.log("====================================================")
 console.log(gp.pathExisists(21, 23))
+console.log("============================")
