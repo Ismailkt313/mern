@@ -1,22 +1,14 @@
-import React,{useState,useEffect} from 'react'
+import { user } from './contect'
+import React from 'react'
+import Provider from './provider'
 
 const App = () => {
-  const [count, setCount] = useState(0)
-  const [start,setStart] = useState(false)
-  useEffect(() => {
-    let timer 
-    if (start) {
-      timer = setInterval(() => {
-         setCount((a)=>a+=1)
-       },1000)
-    }
-    return ()=> clearInterval(timer)
-  },[start])
   return (
+    <user.Provider value={{name:"afeeda",friend:"ismail"}}>
     <div>
-      <button onClick={() => setStart((a) => !a)}>counter</button>
-      <h2>{count}</h2>
-    </div>
+      <Provider/>
+     </div>
+    </user.Provider>
   )
 }
 
