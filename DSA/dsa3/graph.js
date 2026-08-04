@@ -56,6 +56,35 @@ class graph {
             }
         }
     }
+    shortest(start, end) {
+        let seen = new Set()
+        seen.add(start)
+        let parent = {}
+        let queue = [start]
+        let saw = false
+        while (queue.length) {
+            let node = queue.shift()
+            if (node == end) {
+                saw = true
+                break
+            }
+            for (let val of this.adjList[node]) {
+                if (!seen.has(val)) {
+                    seen.add(val)
+                    queue.push(val)
+                    parent[val] = node
+                }
+            }
+        }
+        let arr = []
+        if (saw) {
+            for (let val in parent) {
+                arr.push(end)
+                end = parent[end]
+            }
+        }
+        return arr.reverse()
+    }
     pathExisists(start, end) {
         if (!this.adjList[start] || !this.adjList[end]) {
             return false
@@ -104,4 +133,6 @@ gp.dfs(21)
 console.log("====================================================")
 gp.bfs(21)
 console.log("====================================================")
-console.log(gp.pathExisists(21, 23))
+console.log(gp.pathExisists(21, 56))
+console.log("====================================================")
+console.log(gp.shortest(21, 76))
