@@ -6,7 +6,8 @@ function mergeSort(arr) {
     let right = mergeSort(arr.slice(midd))
     return merge(left,right)
 }
-
+//asfkbasfbai
+//afkjbaifba
 function merge(left, right) {
     let arr = []
     let i = 0
