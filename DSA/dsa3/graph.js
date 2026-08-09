@@ -20,6 +20,7 @@ class graph {
     removeEdge(v1, v2) {
         this.adjList[v1].delete(v2)
     }
+    //remove vertex
     removeVertex(val) {
         for (let key in this.adjList) {
             if (this.adjList[key].has(val)) {
