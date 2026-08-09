@@ -46,6 +46,7 @@ class heap {
         }
     }
 }
+//data's are here
 let hp = new heap()
 hp.insert(50)
 hp.insert(20)
