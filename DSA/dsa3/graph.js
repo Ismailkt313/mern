@@ -17,6 +17,7 @@ class graph {
         }
         obj[v1].add(v2)
     }
+    //remove edge
     removeEdge(v1, v2) {
         this.adjList[v1].delete(v2)
     }
