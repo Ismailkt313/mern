@@ -2,6 +2,7 @@ class heap {
     constructor() {
         this.table = []
     }
+    //insert as like adding value to array
     insert(value) {
         this.table.push(value)
         this.heapfyup(this.table.length - 1)
