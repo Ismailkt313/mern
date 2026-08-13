@@ -29,6 +29,7 @@ class heap {
             this.heapdown(0, i, arr)
         }
     }
+    //heapdown we use as for sort
     heapdown(index, length, arr) {
         let left = (index * 2) + 1
         let right = (index * 2) + 2
