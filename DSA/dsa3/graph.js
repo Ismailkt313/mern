@@ -28,6 +28,7 @@ class graph {
         }
         delete this.adjList[val]
     }
+    //depth first search
     dfs(start) {
         let seen = new Set()
         let fun = (start, seen) => {
