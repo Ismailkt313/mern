@@ -44,6 +44,7 @@ class graph {
         }
         fun(start, seen)
     }
+    //breadth first search
     bfs(start) {
         const queue = [start]
         let seen = new Set()
