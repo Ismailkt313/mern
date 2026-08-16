@@ -113,6 +113,7 @@ class graph {
         }
         return false
     }
+    // print the graph for feature
     print() {
         for (let key in this.adjList) {
             console.log(`${key}  -> ${[...this.adjList[key]]}`)
