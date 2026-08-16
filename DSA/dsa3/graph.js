@@ -60,6 +60,7 @@ class graph {
             }
         }
     }
+    //shoertedst path funny thing in graph
     shortest(start, end) {
         let seen = new Set()
         seen.add(start)
