@@ -2,6 +2,7 @@ class graph {
     constructor() {
         this.adjList = {}
     }
+    // add vertex 
     addvertex(value) {
         if (!this.adjList[value]) {
             this.adjList[value] = new Set()
