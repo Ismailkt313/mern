@@ -8,6 +8,7 @@ class graph {
             this.adjList[value] = new Set()
         }
     }
+    // adding edge to connect with the each
     addEdge(v1, v2) {
         let obj = this.adjList
         if (!obj[v1]) {
