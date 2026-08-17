@@ -31,6 +31,7 @@ function merge(left, right) {
     }
     return arr
 }
+// sorting 
 function sorting(arr) {
     let sortArr = []
     for (let i = 1; i < arr.length; i += 2){
