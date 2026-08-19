@@ -19,6 +19,8 @@ class Trie {
         }
         current.isEnd = true
     }
+    // autocomplete 
+    // prefix
     autocomplete(pref) {
         let current = this.root
         for (let val of pref) {
