@@ -33,6 +33,7 @@ class Trie {
         this.collect(current, pref, result)
         console.log(result)
     }
+    // collecting the words
     collect(node, word, result) {
         if (node.isEnd) {
             result.push(word)
