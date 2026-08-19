@@ -8,6 +8,7 @@ class Trie {
     constructor() {
         this.root = new Node()
     }
+    // inserting value 
     insert(value) {
         let current = this.root
         for (let val of value) {
