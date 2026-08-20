@@ -42,6 +42,7 @@ class Trie {
             this.collect(node.child[val], word + val, result)
         }
     }
+    // remove help
     removehelp(node, word, index) {
         if (word.length == index) {
             if (!node.isEnd) return false
