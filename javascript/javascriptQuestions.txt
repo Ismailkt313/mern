@@ -8,6 +8,8 @@ Arrays
 Objects
 Strings
 DOM
+
+
 ES6+
 Scope
 Hoisting
