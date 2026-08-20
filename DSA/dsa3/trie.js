@@ -57,6 +57,7 @@ class Trie {
             Object.keys(node.child).length == 0 && !node.isEnd
         )
     }
+    // removing word
     remove(word) {
         this.removehelp(this.root, word, 0)
     }
