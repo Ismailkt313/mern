@@ -30,6 +30,7 @@ class BinaryTree{
             queue.push(current.right)
         }
     }
+    // print value
     print() {
         if (!this.root) return
         let data = ''
