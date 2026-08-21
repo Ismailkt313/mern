@@ -6,7 +6,7 @@ BASIC
 5. Insert Tail
 6. Delete Head
 7. Delete Tail
-8. Find Max
+8. Find Max 
 9. Find Min
 10. Find Middle
 
