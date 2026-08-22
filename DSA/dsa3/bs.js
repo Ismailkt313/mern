@@ -9,6 +9,7 @@ class BinaryTree{
     constructor() {
         this.root = null
     }
+    // insert 
     insert(value) {
         let node = new Node(value)
         let queue = [this.root]
