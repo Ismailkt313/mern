@@ -9,6 +9,7 @@ class List {
     constructor() {
         this.head = null
     }
+    // insert
     insert(value) {
         const node = new Node(value)
         if (!this.head) {
