@@ -21,6 +21,7 @@ class List {
             return
         }
     }
+    // reverse
     reverse() {
         let current = this.head
         let prev = null
