@@ -6,8 +6,6 @@
 //             timer = setTimeout(() => {
 //                  console.log(...msg)
 
- 
-                
 //             },4000)
 //         }
 //     )
