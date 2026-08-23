@@ -13,7 +13,7 @@ BASIC
 INTERMEDIATE
 11. Reverse Linked List
 12. Remove Nth Node From End
-13. Detect Cycle
+13. Detect Cycle 
 14. Find Cycle Start
 15. Merge Two Sorted Lists
 16. Remove Duplicates
