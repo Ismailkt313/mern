@@ -2,7 +2,7 @@ BASIC
 1. Print List
 2. Count Nodes
 3. Search Node
-4. Insert Head
+4. Insert Head 
 5. Insert Tail
 6. Delete Head
 7. Delete Tail
