@@ -10,7 +10,7 @@ BASIC
 9. Find Min
 10. Find Middle
 
-INTERMEDIATE
+INTERMEDIATE 
 11. Reverse Linked List
 12. Remove Nth Node From End 
 13. Detect Cycle 
