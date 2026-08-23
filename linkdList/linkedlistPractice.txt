@@ -8,7 +8,7 @@ BASIC
 7. Delete Tail
 8. Find Max 
 9. Find Min
-10. Find Middle
+10. Find Middle 
 
 INTERMEDIATE 
 11. Reverse Linked List
