@@ -16,7 +16,7 @@ INTERMEDIATE
 13. Detect Cycle 
 14. Find Cycle Start   
 15. Merge Two Sorted Lists 
-16. Remove Duplicates 
+16. Remove Duplicates  
 17. Palindrome Linked List
 18. Intersection Of Lists
 19. Odd Even Linked List
