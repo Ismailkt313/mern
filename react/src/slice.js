@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const slice = createSlice({
-    name: "counter",
+    name: "counter", 
     initialState: 0,
     reducers: {
         incremet: (state) => state += 1,

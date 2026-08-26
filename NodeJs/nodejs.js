@@ -1,11 +1,26 @@
-const { fork } = require("child_process")
-const {parentPort} = require("worker_threads")
+import express from "express"
+import { EventEmitter } from "events"
+import fs from "fs"
 
-const child = fork("./abc")
-console.log(child)
-// parentPort.postMessage()
-child.send(30)
+const app = express()
+const events = new EventEmitter()
 
-child.on("message", (data) => {
-    console.log("message recieved", data)
+function Auth(req, res, next) {
+    let current = new Date().getHours()
+    let allow = current >= 18 && current < 21
+    if (!allow) next() 
+    return "its blocked time"
+}
+console.log(Auth())
+events.on("message",(data) => {
+    fs.writeFile("file.txt", data, () => {
+        console.log("file write") 
+    })  
+})
+
+let data = "  dd"
+events.emit("message",data)
+
+app.listen(4500,()=> {
+    console.log("running server")
 })
