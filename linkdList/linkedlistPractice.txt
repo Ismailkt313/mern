@@ -19,8 +19,8 @@ INTERMEDIATE
 16. Remove Duplicates  
 17. Palindrome Linked List 
 18. Intersection Of Lists
-19. Odd Even Linked List
-20. Partition List
+19. Odd Even Linked List 
+20. Partition List 
 
 ADVANCED
 21. Reverse K Group
