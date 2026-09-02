@@ -42,17 +42,19 @@ class List {
         current.next = current.next.next
     }
     removeDup() {
-        let seen = new Set()
         let current = this.head
+        let seen = new Set()
         let prev = null
         while (current) {
             if (seen.has(current.value)) {
-                prev.next = current.next
-            } else {
-                seen.add(current.value)
+                current = prev
+                current.next = current.next.next
+            } 
+            seen.add(current.value)
                 prev = current
-            }
-            current = current.next
+                current = current.next
+
+
         }
     }
     swapByNum() {
@@ -67,13 +69,31 @@ class List {
     }
     addSumBetween() {
         let current = this.head
-        while (current && current.next) {
+        while (current.next) {
             let sum = current.value + current.next.value
-            let newNode = new Node(sum)
-            newNode.next = current.next
-            current.next = newNode
-            current = newNode.next
+            let node = new Node(sum)
+            node.next = current.next
+            current.next = node
+            current = current.next.next
         }
+    }
+    printWithoutPowerOfTwo() {
+        function isPower2(val) {
+            if (val < 1) return false
+            while (val % 2 == 0) {
+                val = val / 2
+            }
+            return val == 1
+        }
+        let current = this.head
+        let ans = ""
+        while (current) {
+            if (!isPower2(current.value)) {
+                ans += ` ${current.value} -> `
+            }
+            current = current.next
+        }
+        console.log(ans)
     }
     print() {
         let current = this.head
@@ -88,28 +108,26 @@ class List {
 }
 
 const list = new List()
-list.insert(50)
-list.insert(80)
+list.insert(10)
+list.insert(25)
+list.insert(10)
 list.insert(40)
-list.insert(20)
-list.insert(90)
-list.insert(10)
-list.insert(50)
-list.insert(80)
+list.insert(15)
+list.insert(25)
+list.insert(60)
+list.insert(30)
 list.insert(40)
+list.insert(75)
 list.insert(20)
+list.insert(15)
 list.insert(90)
-list.insert(10)
-list.insert(70)
 list.insert(30)
-list.insert(10)
-list.insert(70)
-list.insert(30)
-list.insert(30)
-list.insert(60)
-list.insert(60)
+list.insert(50)
 list.print()
 list.swapByNum()
+list.print()
+list.printWithoutPowerOfTwo()
+list.removeDup()
 list.print()
 list.addSumBetween()
 list.print()

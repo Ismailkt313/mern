@@ -79,8 +79,14 @@ class BST{
         function inorder(current) {
             if (!current) return
             inorder(current.right)
-            if(count > )
+            if (count == k) {
+                larggest = current.value
+            }
+            count ++
+            inorder(current.left)
         }
+        inorder(this.root)
+        console.log(larggest)
     }
 
     min(current = this.root) {
@@ -117,4 +123,4 @@ console.log("after removal")
 // bst.removeDup()
 bst.traverse()
 console.log("kth larggest")
-bst.KthLarggest(4)
+bst.KthLarggest()
