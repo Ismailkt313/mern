@@ -31,7 +31,7 @@ class List {
             prev = current
             current = next
         }
-        this.head = prev
+        this.head = prev 
     }
     removespecific(val) {
         let current = this.head
