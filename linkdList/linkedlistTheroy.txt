@@ -8,7 +8,7 @@ LINKED LIST
 4. Singly Linked List?
 5. Doubly Linked List?
 6. Circular Linked List?
-7. Node structure?
+7. Node structure? 
 8. Head pointer?
 9. Tail pointer?
 10. Insert at beginning?
