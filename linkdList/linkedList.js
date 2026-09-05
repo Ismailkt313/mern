@@ -23,7 +23,7 @@ class List {
     }
     // reverse
     reverse() {
-        let current = this.head
+        let current = this.head 
         let prev = null
         while (current) {
             let next = current.next
