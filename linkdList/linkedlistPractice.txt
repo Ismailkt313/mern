@@ -21,7 +21,7 @@ INTERMEDIATE
 18. Intersection Of Lists
 19. Odd Even Linked List  
 20. Partition List 
- 
+  
 ADVANCED 
 21. Reverse K Group
 22. Rotate List
