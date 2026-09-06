@@ -8,7 +8,7 @@ RECURSION
 4. Recursive case?
 5. What causes infinite recursion? 
 6. What is stack overflow?
-7. What is recursion tree?
+7. What is recursion tree? 
 8. How recursion uses call stack?
 9. Tail Recursion?
 10. Head Recursion? 
