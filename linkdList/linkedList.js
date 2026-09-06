@@ -30,7 +30,7 @@ class List {
             current.next = prev
             prev = current
             current = next
-        }
+        } 
         this.head = prev 
     }
     removespecific(val) {
