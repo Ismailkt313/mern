@@ -3,9 +3,9 @@ RECURSION
 ====================================
 
 1. What is recursion?
-2. Why use recursion?
+2. Why use recursion? 
 3. Base case?
-4. Recursive case?
+4. Recursive case? 
 5. What causes infinite recursion? 
 6. What is stack overflow?
 7. What is recursion tree? 
