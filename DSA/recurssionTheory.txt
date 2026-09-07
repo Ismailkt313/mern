@@ -13,10 +13,10 @@ RECURSION
 9. Tail Recursion?
 10. Head Recursion? 
 11. Direct Recursion?
-12. Indirect Recursion?
+12. Indirect Recursion?   
 13. Recursive vs Iterative?
 14. Advantages of recursion?
-15. Disadvantages of recursion?
+15. Disadvantages of recursion? 
 16. Space complexity of recursion?
 17. Time complexity of recursion?
 18. How to optimize recursion?
