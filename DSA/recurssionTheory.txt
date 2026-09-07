@@ -7,7 +7,7 @@ RECURSION
 3. Base case?
 4. Recursive case? 
 5. What causes infinite recursion? 
-6. What is stack overflow?
+6. What is stack overflow? 
 7. What is recursion tree?  
 8. How recursion uses call stack?
 9. Tail Recursion?
@@ -15,7 +15,7 @@ RECURSION
 11. Direct Recursion? 
 12. Indirect Recursion?    
 13. Recursive vs Iterative?
-14. Advantages of recursion?
+14. Advantages of recursion? 
 15. Disadvantages of recursion?  
 16. Space complexity of recursion?
 17. Time complexity of recursion?
