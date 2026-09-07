@@ -12,7 +12,7 @@ RECURSION
 8. How recursion uses call stack?
 9. Tail Recursion?
 10. Head Recursion? 
-11. Direct Recursion?
+11. Direct Recursion? 
 12. Indirect Recursion?   
 13. Recursive vs Iterative?
 14. Advantages of recursion?
