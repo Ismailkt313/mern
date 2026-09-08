@@ -33,7 +33,7 @@ class List {
         } 
         this.head = prev 
     }
-    removespecific(val) {
+    removespecific(val) { 
         let current = this.head
         while (current.next.value != val) {
             current = current.next
