@@ -27,7 +27,7 @@ class List {
         let prev = null
         while (current) {
             let next = current.next
-            current.next = prev
+            current.next = prev 
             prev = current
             current = next
         } 
