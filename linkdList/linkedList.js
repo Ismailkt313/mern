@@ -28,7 +28,7 @@ class List {
         while (current) {  
             let next = current.next
             current.next = prev 
-            prev = current
+            prev = current 
             current = next
         } 
         this.head = prev 

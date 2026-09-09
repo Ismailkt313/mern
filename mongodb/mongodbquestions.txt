@@ -8,7 +8,7 @@ COLLECTION 1: STUDENTS (BASIC)
 ==============================
 
 
-✅ 1. Find all students whose marks are greater than 85.
+✅ 1. Find all students whose marks are greater than 85. 
 
 ✅ 2. Find only name and course fields for all students.
 
