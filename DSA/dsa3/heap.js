@@ -16,7 +16,7 @@ class heap {
     }
     //remove 
     remove() {
-        this.table[0] = this.table.pop()
+        this.table[0] = this.table.pop() 
         this.heapdown(0, this.table.length, this.table)
         // this was the proper method for removing
     }
