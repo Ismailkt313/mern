@@ -4,7 +4,7 @@ NODE.JS FUNDAMENTALS
 
 1. What is Node.js?
 2. Is Node.js a framework or runtime?
-3. Why was Node.js created?
+3. Why was Node.js created? 
 4. What problems does Node.js solve?
 5. Advantages of Node.js?
 6. Disadvantages of Node.js?

@@ -8,7 +8,7 @@ NODE.JS BEGINNER PRACTICAL QUESTIONS (20)
 
       Topics:
       - Running Node.js
-      - console.log()
+      - console.log() 
 
 --------------------------------------------------
 
