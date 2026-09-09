@@ -6,7 +6,7 @@ SEARCHING
 2. Binary Search?
 3. Requirements for Binary Search?
 4. Binary Search Complexity?
-5. Recursive Binary Search?
+5. Recursive Binary Search? 
 6. Iterative Binary Search?
 7. Lower Bound?
 8. Upper Bound?
