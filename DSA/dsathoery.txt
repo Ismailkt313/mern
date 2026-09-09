@@ -6,7 +6,7 @@ TIME & SPACE COMPLEXITY
 2. What is Space Complexity?
 3. Why is complexity analysis important?
 4. What is Big O Notation?
-5. What is Big Omega Notation?
+5. What is Big Omega Notation? 
 6. What is Big Theta Notation?
 7. Difference between O, Ω and Θ?
 8. What is Constant Time O(1)?

@@ -9,7 +9,7 @@ ARRAYS
 5. Why array access is O(1)?
 6. Why insertion at start is O(n)?
 7. Why deletion at start is O(n)?
-8. How arrays are stored in memory?
+8. How arrays are stored in memory? 
 9. Contiguous memory allocation?
 10. When should arrays be used?
 11. When should arrays be avoided?
