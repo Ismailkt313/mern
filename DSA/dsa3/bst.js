@@ -9,7 +9,7 @@ class Node{
 class BST{
     constructor() { 
         this.root = null 
-    } 
+    }  
     insert(value) {
         let node = new Node(value)
         if (!this.root) {

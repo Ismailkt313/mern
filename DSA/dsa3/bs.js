@@ -6,7 +6,7 @@ class Node{
     }
 }
 class BinaryTree{
-    constructor() {
+    constructor() { 
         this.root = null
     }
     // insert 
