@@ -40,7 +40,7 @@ function sorting(arr) {
     let ans = mergeSort(sortArr)
     let j = 0
     for (let i = 1; i < arr.length; i+=2){
-        arr[i] = ans[j]
+        arr[i] = ans[j] 
         j++
     }
     return arr
