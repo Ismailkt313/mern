@@ -12,7 +12,7 @@ TIME & SPACE COMPLEXITY
 8. What is Constant Time O(1)?
 9. What is Logarithmic Time O(log n)?
 10. What is Linear Time O(n)?
-11. What is Linearithmic Time O(n log n)?
+11. What is Linearithmic Time O(n log n)? 
 12. What is Quadratic Time O(n²)?
 13. What is Cubic Time O(n³)?
 14. What is Exponential Time O(2ⁿ)?

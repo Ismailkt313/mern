@@ -10,5 +10,5 @@ SEARCHING
 6. Iterative Binary Search?
 7. Lower Bound?
 8. Upper Bound?
-9. Binary Search on Answer?
+9. Binary Search on Answer? 
 10. Real-world examples?
