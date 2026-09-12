@@ -38,7 +38,7 @@ function sorting(arr) {
         sortArr.push(arr[i])
     }
     let ans = mergeSort(sortArr)
-    let j = 0
+    let j = 0 
     for (let i = 1; i < arr.length; i+=2){
         arr[i] = ans[j] 
         j++
