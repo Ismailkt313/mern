@@ -46,5 +46,5 @@ function sorting(arr) {
     return arr 
 } 
 let arr = [90, 8, 5, 23, 56, 89, 4, 56, 8, 32, 14, 98, 37, 18.9, 8, 5, 6, 1] 
-// consoleing the task
+// consoleing the task 
 console.log(sorting(arr))  
