@@ -34,12 +34,12 @@ function merge(left, right) {
 // sorting 
 function sorting(arr) {
     let sortArr = []
-    for (let i = 1; i < arr.length; i += 2){
+    for (let i = 1; i < arr.length; i += 2){ 
         sortArr.push(arr[i])
     }
     let ans = mergeSort(sortArr) 
     let j = 0 
-    for (let i = 1; i < arr.length; i+=2){
+    for (let i = 1; i < arr.length; i+=2){ 
         arr[i] = ans[j] 
         j++
     }

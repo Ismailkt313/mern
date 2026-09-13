@@ -9,7 +9,7 @@ class graph {
         }
     }
     // adding edge to connect with the each
-    addEdge(v1, v2) {
+    addEdge(v1, v2) { 
         let obj = this.adjList 
         if (!obj[v1]) { 
             this.addvertex(v1)
