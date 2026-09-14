@@ -14,9 +14,9 @@ class graph {
         if (!obj[v1]) { 
             this.addvertex(v1) 
         }
-        if (!obj[v2]) {
+        if (!obj[v2]) {  
             this.addvertex(v2)
-        }
+        } 
         obj[v1].add(v2) 
     }
     //remove edge
