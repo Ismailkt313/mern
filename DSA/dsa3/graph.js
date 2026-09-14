@@ -12,7 +12,7 @@ class graph {
     addEdge(v1, v2) { 
         let obj = this.adjList 
         if (!obj[v1]) { 
-            this.addvertex(v1)
+            this.addvertex(v1) 
         }
         if (!obj[v2]) {
             this.addvertex(v2)
