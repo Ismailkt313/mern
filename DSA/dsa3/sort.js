@@ -42,7 +42,7 @@ function sorting(arr) {
     for (let i = 1; i < arr.length; i+=2){ 
         arr[i] = ans[j] 
         j++
-    }
+    } 
     return arr 
 } 
 let arr = [90, 8, 5, 23, 56, 89, 4, 56, 8, 32, 14, 98, 37, 18.9, 8, 5, 6, 1]  
