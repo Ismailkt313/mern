@@ -45,7 +45,7 @@ class Trie {
     // remove help
     removehelp(node, word, index) {
         if (word.length == index) {
-            if (!node.isEnd) return false
+            if (!node.isEnd) return false 
             node.isend = false
             return Object.keys(node.child).length === 0
         }
