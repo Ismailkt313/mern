@@ -4,7 +4,7 @@ class Node{
         this.left = null
         this.right = null
     }
-}
+} 
 class BinaryTree{
     constructor() { 
         this.root = null
