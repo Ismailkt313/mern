@@ -8,7 +8,7 @@ class heap {
         this.heapfyup(this.table.length - 1)
     }  
     heapfyup(index) {
-        let parent = Math.floor((index - 1) / 2)
+        let parent = Math.floor((index - 1) / 2) 
         if (parent >= 0 && this.table[parent] < this.table[index]) {
             [this.table[parent], this.table[index]] = [this.table[index], this.table[parent]]
             this.heapfyup(parent)
