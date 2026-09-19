@@ -5,7 +5,7 @@ class heap {
     //insert as like adding value to array
     insert(value) { 
         this.table.push(value) 
-        this.heapfyup(this.table.length - 1)
+        this.heapfyup(this.table.length - 1) 
     }  
     heapfyup(index) {  
         let parent = Math.floor((index - 1) / 2) 
