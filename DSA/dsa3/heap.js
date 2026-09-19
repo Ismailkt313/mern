@@ -14,6 +14,7 @@ class heap {
             this.heapfyup(parent)
         }
     }
+    // fegdevrdv
     //remove  
     remove() {
         this.table[0] = this.table.pop()  
