@@ -1,17 +1,4 @@
-import React, { useState } from 'react'
-import { createContext } from 'react'
+import { createContext } from "react";
 
-export const DataContext = createContext()
-const context = ({childrens}) => {
-    const [data,setDaata] = useState('')
-  return (
-      <div>
-          <DataContext.Provider value={{ data, setDaata }}>
-              { childrens}
-              </DataContext.Provider>
+export const UserContext = createContext()
 
-    </div>
-  )
-}
-
-export default context
